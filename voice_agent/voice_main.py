@@ -21,8 +21,8 @@ Two audio-specific policies, both deliberate:
    a speaker outage.
 
 The call ends on escalation. The agent has just told the patient a nurse is
-coming; resuming the check-in script after that is failure F1 (FAILURES.md)
-replayed at call level.
+coming; resuming the check-in script after that is the
+script-continues-through-an-emergency failure replayed at call level.
 """
 
 import asyncio

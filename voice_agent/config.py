@@ -47,9 +47,6 @@ CARTESIA_MODEL = os.getenv("CARTESIA_MODEL", "sonic-3.5")
 # Voice name (e.g. "Jacqueline") or raw voice UUID — names are resolved once
 # per process against Cartesia's /voices listing.
 CARTESIA_VOICE = os.getenv("CARTESIA_VOICE", "db6b0ed5-d5d3-463d-ae85-518a07d3c2b4")
-# Pinned, not floating: a Cartesia API version bump can change response shape,
-# and that must be an explicit, reviewed change on a patient-facing path.
-CARTESIA_VERSION = os.getenv("CARTESIA_VERSION", "2026-08-14")
 
 # 16 kHz mono is what Deepgram wants and is plenty for telephony-grade speech;
 # sending 44.1 kHz just buys upload latency.

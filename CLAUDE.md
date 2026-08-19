@@ -127,7 +127,8 @@ container needed between a buffer and a sound card.
   speaker outage is a delivery failure, not a safety failure. Report the
   degradation, print the text, keep the gate's decision.
 - The call ends on escalation. Resuming the check-in script after telling
-  the patient a nurse is coming is failure F1 at call level.
+  the patient a nurse is coming is the script-continues-through-an-emergency
+  failure at call level.
 
 ## Requirements
 - Every turn logged: patient utterance, all safety verdicts, agent draft,

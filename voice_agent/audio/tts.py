@@ -8,6 +8,12 @@ Like stt.py, this raises instead of failing closed. TTS failure is a delivery
 failure, not a safety failure — the text it was handed has already cleared the
 escalation gate — so the caller degrades to printing rather than escalating.
 See voice_main.py.
+
+API version: `cartesia-version: 2026-08-14`, sent by cartesia==4.0.1 (hardcoded
+at _client.py:244). It is NOT configurable from here — the version pin now
+travels with the SDK pin in requirements.txt, so bumping the SDK is what changes
+the API contract. On a patient-facing path that bump wants a deliberate review,
+not a routine dependency upgrade.
 """
 
 import asyncio

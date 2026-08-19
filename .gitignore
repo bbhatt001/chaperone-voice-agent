@@ -1,4 +1,5 @@
 .env
+FAILURES.md
 venv/
 __pycache__/
 *.pyc
