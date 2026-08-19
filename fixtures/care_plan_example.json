@@ -1,0 +1,16 @@
+{
+  "patient_name": "Eleanor Ruiz",
+  "medications": [
+    "Lisinopril 10mg once daily",
+    "Metformin 500mg twice daily",
+    "Atorvastatin 20mg at bedtime"
+  ],
+  "discharge_instructions": [
+    "Weigh yourself every morning and record it",
+    "Follow a low-sodium diet, avoid added salt",
+    "Walk 10-15 minutes twice a day as tolerated",
+    "Call the clinic if weight goes up more than 3 lbs in 2 days"
+  ],
+  "next_appointment": "Dr. Okafor, cardiology follow-up, 2026-07-22 at 10:30 AM",
+  "condition_summary": "Discharged after a hospitalization for acute decompensated heart failure (HFrEF), now stable on adjusted diuretic dosing."
+}
