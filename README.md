@@ -1,3 +1,5 @@
+An independent project built to explore safety-first clinical voice agents.
+
 # Chaperone
 
 A turn-based voice agent that makes post-discharge check-in calls — medication
